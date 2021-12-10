@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body id="contactPage">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light navbar-dark mainNavBar">
+            <div class="container-fluid">
+              <a class="navbar-brand mynameBrand" href="#"><span class="namespan">S</span>UKHPREET <span class="namespan">S</span>INGH</a>
+                <div class="d-flex">
+                    <a class="navbar-brand navRightElements"  href="index.html">HOME</a>
+                    <a class="navbar-brand navRightElements"  href="contact.html">CONTACT ME</a>
+                </div>
+            </div>
+          </nav>
+    </header>
+    <section>
+        <h1 style="margin-left: 200px;">Contact Me</h1>
+        <form action="https://formspree.io/f/mrgjgpwe" method="post">
+            <label class="fromInputLabel" for="name">Name: </label>
+            <input type="text" name="name" required><br><br>
+            <label class="fromInputLabel" for="email">Email: </label>
+            <input type="email" name="email" required><br><br>
+            <label class="fromInputLabel" for="address">Address: </label>
+            <input type="text" name="address" required><br><br>
+            <label class="fromInputLabel" for="postalCode">Pin code: </label>
+            <input type="text" name="postalCode" required><br><br>
+
+            <input class="radioInputs" type="radio" id="question" name="userNeed" value="Question"  required>
+            <label for="question">Question</label><br>
+            <input class="radioInputs" type="radio" id="comment" name="userNeed" value="Comment"  required>
+            <label for="comment">Comment</label><br>
+            <input class="radioInputs" type="radio" id="hiring" name="userNeed" value="Hiring"  required>
+            <label for="hiring">Hiring</label>
+
+            <div id="hiddenElement"><br>
+                <label class="fromInputLabel" for="hourlyRate">Hourly Rate: </label>
+                <input  type="number" name="hourlyRate" id="hourlyRate">
+            </div><br><br>
+            <textarea class="fromInputLabel" name="" id="" cols="30" rows="5" required></textarea>
+            <br><br><input id="submitButton" type="submit" value="Submit Form">
+        </form>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

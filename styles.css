@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@100&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////// */
+/* Main page styles */
+body#mainPage{
+    background-color: blue;
+    text-align: center;
+    color: white;
+}
+img{
+    margin-top: 50px;
+}
+
+h2#myName{
+    font-family: 'Anton', sans-serif;
+    margin: 30px;
+}
+p#futureTitle{
+    margin-bottom: 40px;
+}
+div#buttons button{
+    border-radius: 30px;
+    padding: 10px 25px;
+    margin: 0px 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    border: none;
+}
+#secondButton{
+    background-color: black;
+}
+#buttons button a{
+    text-decoration: none;
+}
+#secondButton a{
+    color: white;
+}
+#firstButton a{
+    color: black;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////// */
+/* Resume page styles */
+#resume-page{
+    background-image: url("bookbackground.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;  
+}
+.mainNavBar{
+    background-color: rgba(8, 12, 8, 0.3);
+    color: white;
+    font-family: 'Prompt', sans-serif;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: auto;
+}
+
+.mynameBrand{
+    font-size:xx-large;
+    font-weight:bolder;
+}
+.namespan{
+    color: red;
+}
+
+a.navRightElements:hover{
+    font-weight: bolder;
+}
+
+section{
+    width: 100%;
+    padding: 0px 5%;
+}
+
+#firstSctionresume{
+    margin-top: 100px;
+    color: white;
+    margin-bottom: 300px;
+}
+
+h1.sectionHeading{
+    font-size: 100px;
+    text-align: left;
+    padding-left: 220px;
+}
+
+#firstSctionresume button{
+    padding: 10px 40px;
+    float: left;
+    margin: 50px 220px;
+    font-size: 30px;
+    font-weight: bold;
+    border: 1px solid rgb(179, 14, 14);
+    background: transparent;
+    color: white;
+    font-family: 'Prompt', sans-serif;
+}
+
+#firstSctionresume button:hover{
+    background-color: red;
+    border: 1px solid white;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////// */
+
+#aboutMeSection{
+    padding-top: 100px;
+    background-color:wheat;
+}
+.headingsection2{
+    margin-bottom: 40px;
+}
+.aboutMediv{
+    width: 50%;
+}
+.basicInfodiv{
+    margin-left: 10%;
+    width: 45%;
+}
+.columnLeft {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    height: 300px; 
+}
+.columnRight{
+    width: 60%;
+}
+
+
+/* //////////////////////////////////////////////////////////////////////////////////// */
+section#educationalSection{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: white;
+}
+
+#educationaHeading{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.edurow{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.educolumnLeft {
+    float: left;
+    width: 30%;
+    padding: 100px 0px;
+    height: 300px; 
+    text-align: center;
+    background-color: slateblue;
+}
+.educolumnRight{
+    height: 300px; 
+    background-color: whitesmoke;
+    padding-top: 70px;
+    padding-left: 500px;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////// */
+
+#reflectionsection{
+    background-color: rgb(46, 29, 29);
+    color: white;
+    padding-bottom: 100px;
+    margin-bottom: -50px;
+}
+#reflectionHeading{
+    padding-top: 100px;
+    padding-bottom: 50px;
+
+}
+
+
+/* //////////////////////////////////////////////////////////////////////////////////// */
+/* contactPage styles */
+#contactPage{
+    background-color: blue;
+    text-align: center;
+    color: white;
+    margin-left: -200px;
+}
+#contactPage nav{
+    margin-left: 200px;
+}
+
+label.fromInputLabel{
+    margin-left: 200px;
+    width: 100px;
+}
+input{
+    border-radius: 10px;
+    padding-left: 15px;
+}
+
+.radioInputs{
+    margin-left: 200px;
+    margin-right: 50px;
+}
+
+#hiddenElement{
+    display: none;
+}
+
+#submitButton{
+    margin-left: 200px;
+    border-radius: 30px;
+    padding: 10px 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+    border: none;
+}
+#submitButton:hover{
+    color: white;
+    font-weight: bolder;
+    background-color: rgb(63, 52, 52);
+}
+textarea{
+    margin-left: 200px;
+}
+
+
+
+#honestyBody{
+    background-color:lightslategrey;
+    color: white;
+}
+
+#declarationHead{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#declarationContent{
+    line-height: 40px;
+    margin-bottom: 80px;
+}
